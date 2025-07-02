@@ -1,0 +1,19 @@
+{
+  "name": "ayman-mohamed-fri-3-9-assignment14-01552326055",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap-icons": "^1.13.1",
+    "bootstrap5": "^1.1.9",
+    "fa-icons": "^0.2.0",
+    "google-fonts": "^1.0.0"
+  }
+}

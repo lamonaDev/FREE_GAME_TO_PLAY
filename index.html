@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Reviews</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/aos.css" />
+    <link rel="stylesheet" href="./css/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./css/mainStyle.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top" data-aos="fade-down">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-gamepad me-2"></i>GAME REVIEWS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Close">
+                <span id="navBarCollabseButton" style="color: antiquewhite;"><i class="bi bi-arrow-90deg-down"></i></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto" id="navbarNav">
+                    <li class="nav-item"><a class="nav-link" href="#">MMORPG</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">SHOOTER</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">SAILING</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">PERMADEATH</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">SUPERHERO PIXEL</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Game Cards Grid -->
+    <div class="container-lg mt-4">
+        <div class="row g-4" id="mainCardsContainer">
+        </div>
+    </div>
+    <div id="mainModalsContainer">
+    <!-- Modal 1: Tarisland -->
+    <div class="modal fade" id="modal-tarisland" tabindex="-1" aria-labelledby="modal-tarisland-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-tarisland-label">Tarisland</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://placehold.co/600x338" class="game-image img-fluid" alt="Tarisland">
+                    <div class="text-content">
+                        <h6>Title: Tarisland</h6>
+                        <div class="detail"><span class="label">Category:</span> <span
+                                class="badge badge-custom">MMORPG</span></div>
+                        <div class="detail"><span class="label">Platform:</span> <span class="badge badge-custom">PC
+                                (Windows)</span></div>
+                        <div class="detail"><span class="label">Status:</span> <span class="badge badge-custom">LIVE</span>
+                        </div>
+                        <p class="description">lorem100</p>
+                        <button class="btn btn-free mt-2">SHOW GAME</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    
+    <!-- Modal 2: Throne and Liberty -->
+    <div class="modal fade" id="modal-throne" tabindex="-1" aria-labelledby="modal-throne-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-throne-label">Throne and Liberty</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex">
+                    <img src="https://placehold.co/600x338" class="game-image" alt="Throne and Liberty">
+                    <div class="text-content">
+                        <h6>Title: Throne and Liberty</h6>
+                        <div class="detail"><span class="label">Category:</span> <span
+                                class="badge badge-custom">MMORPG</span></div>
+                        <div class="detail"><span class="label">Platform:</span> <span class="badge badge-custom">PC
+                                (Windows)</span></div>
+                        <div class="detail"><span class="label">Status:</span> <span class="badge badge-custom">LIVE</span>
+                        </div>
+                        <p class="description">A free-to-play multi-platform MMORPG from NCsoft and Amazon</p>
+                        <button class="btn btn-free mt-2">SHOW GAME</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="test" tabindex="-1" aria-labelledby="modal-throne-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-throne-label">Throne and Liberty</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex">
+                    <img src="https://placehold.co/600x338" class="game-image" alt="Throne and Liberty">
+                    <div class="text-content">
+                        <h6>Title: Throne and Liberty</h6>
+                        <div class="detail"><span class="label">Category:</span> <span
+                                class="badge badge-custom">MMORPG</span></div>
+                        <div class="detail"><span class="label">Platform:</span> <span class="badge badge-custom">PC
+                                (Windows)</span></div>
+                        <div class="detail"><span class="label">Status:</span> <span class="badge badge-custom">LIVE</span>
+                        </div>
+                        <p class="description">A free-to-play multi-platform MMORPG from NCsoft and Amazon</p>
+                        <button class="btn btn-free mt-2">SHOW GAME</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/app.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
+</html>
